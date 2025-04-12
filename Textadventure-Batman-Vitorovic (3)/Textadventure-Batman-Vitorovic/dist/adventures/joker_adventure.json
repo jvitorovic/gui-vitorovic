@@ -1,0 +1,200 @@
+{
+    "start": {
+        "character_overview": "Der Joker ist der unberechenbare Prinz des Verbrechens, ein Meister der Täuschung und Manipulation. Er lebt dafür, Chaos zu stiften und seinen Erzfeind Batman zu provozieren.",
+        "objective": "Plane dein nächstes großes Chaos, bring Gotham an den Rand des Zusammenbruchs und halte Batman auf Abstand, während du die Stadt terrorisierst."
+    },
+    "1": {
+        "name": "Geheimes Versteck",
+        "description": "Du sitzt in deinem chaotischen Versteck, das mit grellen Farben, explodierten Spielzeugen und Bergen von Joker-Karten gefüllt ist. Deine Handlanger stehen unsicher um dich herum, bereit, deinen nächsten Befehl auszuführen. Du springst auf den Tisch, wirfst eine Karte in die Luft und lachst laut: 'Heute, Jungs, bringen wir Gotham zum Lachen! Oder zum Weinen. Wer weiß schon genau?' Dein Plan beginnt sich in deinem Kopf zu formen.",
+        "choices": {
+            "a": ["Plane einen Überfall auf die Bank", "2"],
+            "b": ["Sabotiere die Polizeizentrale", "3"],
+            "c": ["Stelle Fallen für Batman auf", "4"]
+        }
+    },
+    "2": {
+        "name": "Überfall auf die Bank",
+        "description": "Die Gotham Central Bank ist voller panischer Menschen. Während du deine Handlanger anleitest, die Tresore zu plündern, gehst du zur Managerkabine, um deine persönliche Botschaft zu hinterlassen. Mit einer Bombe unter dem Schreibtisch und einer Nachricht an Batman grinst du breit: 'Mal sehen, wie lange er braucht, um diesen Witz zu verstehen.",
+        "choices": {
+            "a": ["Hinterlasse eine Bombe", "5"],
+            "b": ["Plündere die Bank und entkomme", "6"],
+            "c": ["Verkleide dich und mische dich unter die Geiseln", "7"]
+        }
+    },
+    "3": {
+        "name": "Polizeizentrale sabotieren",
+        "description": "Die Polizeizentrale von Gotham ist ein geschäftiger Ort, aber du bist ein Meister der Täuschung. Verkleidet als harmloser Elektriker bewegst du dich durch die Flure, während du heimlich die Sicherheitskameras sabotierst. Ein Polizist spricht dich an: 'Was machen Sie hier?' Du drehst dich um, zeigst ein explosives Lächeln und lachst: 'Nur ein bisschen Umbauarbeit!",
+        "choices": {
+            "a": ["Hacke ihre Systeme", "8"],
+            "b": ["Sprenge das Hauptquartier in die Luft", "9"],
+            "c": ["Stiehl geheime Akten über Batman", "10"]
+        }
+    },
+    "4": {
+        "name": "Fallen für Batman",
+        "description": "Dein Versteck ist ein Spielplatz aus tödlichen Fallen. Jede von ihnen ist darauf ausgelegt, Batman entweder zu verletzen oder zu demütigen. Du schickst deine Handlanger los, um die Fallen in der Stadt zu platzieren. 'Und denkt daran: Je größer das Chaos, desto lauter das Gelächter!', rufst du ihnen nach, während du auf deinem Thron aus Karten Platz nimmst.",
+        "choices": {
+            "a": ["Platziere die Fallen an der Brücke", "11"],
+            "b": ["Stelle die Fallen im Theater auf", "12"],
+            "c": ["Verteile die Fallen in ganz Gotham", "13"]
+        }
+    },
+    "5": {
+        "name": "Bombenüberraschung",
+        "description": "Du platzierst eine Bombe in der Bank, während du die verängstigten Gesichter der Geiseln betrachtest. Eine Frau fleht: 'Bitte, tun Sie uns nichts!' Du wirfst ihr einen Clownsnasen-Gadget zu und sagst: 'Immer positiv bleiben!' Dann aktivierst du den Timer und verlässt den Raum, während dein Gelächter die Luft erfüllt.",
+        "choices": {
+            "a": ["Aktiviere den Countdown", "14"],
+            "b": ["Hinterlasse die Bombe und verschwinde", "6"],
+            "c": ["Bleibe und beobachte, wie Batman auftaucht", "15"]
+        }
+    },
+    "6": {
+        "name": "Flucht mit Beute",
+        "description": "Mit einem riesigen Sack voller gestohlenem Geld und der Polizei im Nacken bretterst du in einem gestohlenen Lieferwagen durch die Straßen von Gotham. Du wirfst lachend Geldscheine aus dem Fenster und siehst zu, wie die Menschen darum kämpfen. 'Das ist besser als jede Banküberweisung!', rufst du aus.",
+        "choices": {
+            "a": ["Verstecke dich in einem alten Lagerhaus", "16"],
+            "b": ["Locke die Polizei in eine Falle", "17"],
+            "c": ["Tausche das Geld gegen Informationen über Batman", "18"]
+        }
+    },
+    "7": {
+        "name": "Undercover unter Geiseln",
+        "description": "Verkleidet als harmloser Bankangestellter sitzt du mit den anderen Geiseln. Als Batman eintritt, musst du ein Lachen unterdrücken. 'Sieht aus, als hätte der dunkle Ritter seinen Weg gefunden. Aber kann er auch meinen Plan durchschauen?', denkst du und hältst deinen nächsten Zug bereit.",
+        "choices": {
+            "a": ["Greife Batman direkt an", "19"],
+            "b": ["Bleibe unauffällig und warte", "20"],
+            "c": ["Führe die Geiseln in eine Falle", "5"]
+        }
+    },
+    "8": {
+        "name": "Systemhack",
+        "description": "Du knackst die Sicherheitsprotokolle der Gotham-Polizei und findest geheime Dateien über Batmans Operationen. 'Oh, was haben wir denn hier? Geheimnisse, Geheimnisse, Geheimnisse!', murmelt du, während du die Daten auf deinen Joker-Stick lädst. 'Mal sehen, wie er mit ein bisschen Chaos in seinem Batcave zurechtkommt.",
+        "choices": {
+            "a": ["Nutze die Informationen, um Batman zu konfrontieren", "11"],
+            "b": ["Veröffentliche die Daten, um Chaos zu stiften", "13"],
+            "c": ["Zerstöre die Daten, um Spuren zu verwischen", "14"]
+        }
+    },
+    "9": {
+        "name": "Explosion im Polizeihauptquartier",
+        "description": "Mit einem schallenden Lachen betrittst du das Polizeihauptquartier. Überall sind Polizisten in Panik, während eine tickende Bombe unter einem Schreibtisch platziert ist. 'Tick, tack, Batman!', flüsterst du und aktivierst den Countdown.",
+        "room_type": "TrapRoom",
+        "choices": {
+            "a": ["Verlasse das Hauptquartier sofort", "10"],
+            "b": ["Bleibe und warte auf die Explosion", "death"],
+            "c": ["Entferne die Bombe, um Batman zu locken", "13"]
+        },
+        "damage": 50
+    },
+    "10": {
+        "name": "Gestohlene Akten",
+        "description": "n einem Archivraum findest du alte Akten über Gotham und Batman. Sie enthalten kryptische Hinweise auf Batmans wahre Identität. 'Oh, jetzt wird's interessant!', sagst du, während du die Unterlagen durchblätterst. Deine Finger zittern vor Aufregung, während du die nächste große Enthüllung planst.",
+        "choices": {
+            "a": ["Nutze die Informationen, um ihn zu erpressen", "15"],
+            "b": ["Zerstöre die Akten, um Chaos zu hinterlassen", "13"],
+            "c": ["Bewahre die Akten für später auf", "11"]
+        }
+    },
+    "11": {
+        "name": "Falle an der Brücke",
+        "description": "Du stehst auf der Gotham Bridge, während deine Handlanger Sprengstoff an den Trägern anbringen. Autos stauen sich, und die Menschen schreien in Panik. 'Nichts bringt eine Stadt so gut zusammen wie eine gute alte Brückenexplosion!', rufst du und aktivierst den Countdown.",
+        "choices": {
+            "a": ["Lass die Brücke explodieren", "14"],
+            "b": ["Stelle eine Falle und warte", "16"],
+            "c": ["Locke die Polizei an, um Chaos zu verursachen", "17"]
+        }
+    },
+    
+        "12": {
+            "name": "Falle im Theater",
+            "description": "Das alte Theater ist still, bis auf die Schritte deiner Handlanger, die explosive Requisiten auf der Bühne platzieren. Du setzt dich in die erste Reihe und stellst dir vor, wie Batman durch die Tür stürzt. 'Der letzte Akt gehört mir, und die Kritiken werden tödlich sein!', murmelst du und lächelst zufrieden.",
+            "choices": {
+                "a": ["Platziere Geiseln auf der Bühne", "18"],
+                "b": ["Bereite eine Explosion für Batman vor", "13"],
+                "c": ["Verlasse die Szene und warte auf das Chaos", "15"]
+            }
+        },
+        "13": {
+        "name": "Geheime Polizeidateien",
+        "description": "Du betrittst den Aktenraum und siehst eine verschlüsselte Datei mit dem Titel: 'Geheimakte: Batman'. Ein komplexer Algorithmus blockiert den Zugriff. Du reibst dir die Hände und beginnst, die Daten zu entschlüsseln.",
+        "room_type": "PuzzleRoom",
+        "choices": {
+            "a": ["Versuche, die Datei zu entschlüsseln", "15"],
+            "b": ["Nimm die Akten mit und verschwinde", "16"],
+            "c": ["Ignoriere die Dateien und bereite den nächsten Plan vor", "14"]
+            },
+        "solution": "Bruce Wayne"
+        },
+        "14": {
+            "name": "Countdown an der Brücke",
+            "description": "Die Brücke ist still, bis auf das nervöse Wippen der Menschen, die auf ihren Autos sitzen. Der Countdown läuft, und du beobachtest die Szene von einem Versteck aus. 'Batman, wo bist du? Du wirst die Pointe verpassen!', rufst du in die Nacht.",
+            "choices": {
+                "a": ["Lasse die Brücke explodieren", "death"],
+                "b": ["Stoppe den Countdown und locke Batman näher", "18"],
+                "c": ["Entkomme und hinterlasse eine Spur des Chaos", "20"]
+            }
+        },
+        "15": {
+            "name": "Begegnung mit Batman",
+            "description": "Du stehst Batman gegenüber, und obwohl er dich mit seinen finsteren Augen anstarrt, kannst du nicht anders, als zu lachen. 'Ach, Bruce, immer so ernst! Vielleicht solltest du auch mal eine rote Nase ausprobieren!' Deine Hand geht zu deinem Joker-Gadget, bereit für deinen nächsten Zug.",
+            "choices": {
+                "a": ["Greife Batman frontal an", "death"],
+                "b": ["Täusche eine Kapitulation vor und entkomme", "16"],
+                "c": ["Locke Batman in eine vorbereitete Falle", "19"]
+            }
+        },
+        "16": {
+            "name": "Hinterhalt im Lagerhaus",
+            "description": "Das alte Lagerhaus ist dunkel, bis auf die Scheinwerfer, die auf eine improvisierte Bühne gerichtet sind. Batman betritt den Raum, und du rufst: 'Willkommen zur besten Show der Stadt, Batsy! Hoffentlich hast du deine Eintrittskarte!' Du siehst, wie deine Fallen sich langsam aktivieren.",
+            "choices": {
+                "a": ["Aktiviere die Falle", "18"],
+                "b": ["Kämpfe gegen Batman", "15"],
+                "c": ["Flüchte durch einen Geheimgang", "20"]
+            }
+        },
+        "17": {
+            "name": "Polizeifalle",
+            "description": "Im verlassenen Gebäude neben der Polizeizentrale positionierst du eine Bombe, die beim nächsten Großeinsatz hochgehen soll. 'Ich liebe es, wenn ein Plan zusammenkommt!', sagst du und überprüfst den Timer. Gotham wird nie wieder dasselbe sein.",
+            "choices": {
+                "a": ["Beobachte das Chaos von einem sicheren Ort aus", "13"],
+                "b": ["Schicke eine Botschaft an die Stadt", "19"],
+                "c": ["Bereite die nächste Falle für Batman vor", "18"]
+            }
+        },
+        "18": {
+            "name": "Das große Finale",
+            "description": "Der letzte Raum deines Plans ist perfekt vorbereitet. Ein riesiges grünes Fragezeichen hängt von der Decke, und auf der Bühne liegt eine Bombe mit mehreren Drähten. 'Batman, ich habe dir eine letzte Frage gestellt. Deine Antwort wird Gotham entweder retten oder zerstören.",
+            "choices": {
+                "a": ["Fordere Batman zu einem Duell heraus", "20"],
+                "b": ["Täusche eine Niederlage vor und entkomme", "19"],
+                "c": ["Aktiviere deinen letzten Plan und bringe Chaos", "win"]
+            }
+        },
+        "19": {
+            "name": "Flucht ins Chaos",
+            "description": "Mit Gotham in Flammen flüchtest du in einem gestohlenen Wagen durch die Stadt. Dein Gelächter hallt durch die Nacht, während hinter dir Explosionen die Skyline erhellen. 'Das war erst der Anfang!', rufst du, während du auf deinem nächsten Coup sinnst.",
+            "choices": {
+                "a": ["Bereite eine neue Chaosserie vor", "12"],
+                "b": ["Greife die Polizei erneut an", "17"],
+                "c": ["Hinterlasse eine Botschaft für Gotham", "20"]
+            }
+        },
+        "20": {
+            "name": "Der letzte Lacher",
+            "description": "Im letzten Moment enthüllst du deinen wahren Plan: Gotham ist in deinem Chaos gefangen. Batman hat keine Wahl, als zu sehen, wie deine Vision Realität wird. Dein Lachen ist das letzte, was die Stadt hört.",
+            "choices": {}
+        },
+        "death": {
+            "name": "Game Over",
+            "description": "Batman hat dich gestoppt. Dein Chaos endet hier, aber dein Lachen wird Gotham für immer verfolgen.",
+            "choices": {}
+        },
+        "win": {
+            "name": "Sieg!",
+            "description": "Dein Plan ist perfekt aufgegangen. Gotham ist in Flammen, und niemand kann dich aufhalten. Du hast gewonnen, und das Chaos regiert die Stadt.",
+            "choices": {}
+        }
+}
+    
+    
+

@@ -1,0 +1,196 @@
+{
+    "start": {
+        "character_overview": "Batman ist der dunkle Ritter von Gotham. Mit Intelligenz, Mut und technologischen Gadgets schützt er die Stadt vor Kriminellen.",
+        "objective": "Der Riddler hat Gotham mit tödlichen Rätseln und Fallen in Angst und Schrecken versetzt. Finde ihn, entschärfe seine Fallen und rette die Geiseln."
+    },
+    "1": {
+        "name": "Wayne Manor",
+        "description": "Eine ruhige Nacht im Wayne Manor. Das weiche Surren des Batcomputers erfüllt die dunkle Höhle unter der Villa, während Bruce Wayne konzentriert auf die Bildschirme starrt. Alfred betritt den Raum mit einem silbernen Tablett in der Hand, darauf ein dampfender Tee. 'Sir, schlechte Nachrichten. Der Riddler hat die Gotham Bank übernommen. Er fordert, dass Batman erscheint, sonst... es wird nicht gut enden.' Alfreds Stimme ist ruhig, aber du hörst die Besorgnis heraus. Gotham braucht dich. Ein weiteres Mal musst du deine Stadt retten.",
+        "choices": {
+            "a": ["Fahre zur Gotham Bank", "2"],
+            "b": ["Kontaktiere Commissioner Gordon", "3"],
+            "c": ["Analysiere die Situation im Batcomputer", "4"]
+        }
+    },
+    "2": {
+        "name": "Gotham Bank",
+        "description": "Vor der Bank herrscht Chaos. Blaulichter blitzen, Sirenen heulen, und Reporter drängen sich vor Absperrungen. Polizisten versuchen, die Menge zurückzuhalten. Durch die Glasfenster der Bank siehst du schattenhafte Bewegungen - Geiseln. Über allem leuchtet ein riesiges grünes Fragezeichen auf der Fassade, projiziert von einem Scheinwerfer. Der Riddler hat alles genau vorbereitet. Ein Polizist nähert sich dir: 'Batman, wir sind ratlos. Er sagt, nur Sie können die Geiseln retten.' Die Zeit drängt, und die Stadt schaut zu.",
+        "choices": {
+            "a": ["Betrete die Bank frontal", "5"],
+            "b": ["Nutze einen versteckten Seiteneingang", "6"],
+            "c": ["Scanne die Bank mit dem Batmobil", "7"]
+        }
+    },
+    "3": {
+        "name": "Polizeistation",
+        "description": "In der Polizeistation ist die Anspannung greifbar. Commissioner Gordon sitzt an seinem Schreibtisch, die Ärmel hochgekrempelt, während er auf eine Karte von Gotham starrt. 'Batman, wir haben ein Problem. Der Riddler hat uns eine Nachricht geschickt. Es ist eine Falle, das wissen wir, aber wir haben keine Wahl. Es könnte überall Bomben geben.' Er reicht dir die Notiz, eine kryptische Botschaft aus Zahlen und Symbolen. 'Was immer Sie vorhaben, tun Sie es schnell. Gotham zählt auf Sie.",
+        "choices": {
+            "a": ["Gehe direkt zur Bank", "2"],
+            "b": ["Erbitte Verstärkung der Polizei", "8"],
+            "c": ["Untersuche die Nachricht im Batcomputer", "4"]
+        }
+    },
+    "4": {
+        "name": "Batcave",
+        "description": "Zurück in der Batcave sitzt du vor dem riesigen Hauptbildschirm des Batcomputers. Die leuchtenden Symbole und Diagramme der Analyse erfüllen den Raum mit einem kalten bläulichen Licht. Alfred bringt dir eine Tasse Kaffee, während du die Nachricht des Riddlers entschlüsselst. 'Sir, diese Hinweise könnten auf mehr als nur die Bank hindeuten. Der Riddler spielt ein größeres Spiel.' Deine Gedanken rasen, während du den nächsten Schritt planst. Gotham hängt von deiner Entscheidung ab.",
+        "choices": {
+            "a": ["Scanne Gotham nach weiteren Hinweisen", "9"],
+            "b": ["Bereite Ausrüstung vor und fahre zur Bank", "2"],
+            "c": ["Untersuche frühere Rätsel des Riddlers", "10"]
+        }
+    },
+    "5": {
+        "name": "Bank Eingang",
+        "description": "Der Haupteingang der Bank ist dunkel und still. Die einzigen Geräusche kommen von der tickenden Bombe, die hinter einem massiven Sicherheitsschalter installiert ist. Auf einer großen Leinwand über dem Eingang erscheint das grinsende Gesicht des Riddlers: 'Willkommen, Batman. Die Regeln sind einfach: Löse mein Rätsel oder die Geiseln sterben. Du hast fünf Minuten.' Das Rätsel wird eingeblendet, aber es gibt keine Hinweise. Dein Herz schlägt schneller. Jede Sekunde zählt.",
+        "choices": {
+            "a": ["Versuche das Rätsel zu lösen", "11"],
+            "b": ["Ignoriere das Rätsel und suche nach der Bombe", "12"],
+            "c": ["Sichere die Geiseln zuerst", "13"]
+        }
+    },
+    "6": {
+        "name": "Bank Dach",
+        "description": "Das Dach der Gotham Bank ist kühl und still, beleuchtet von den fernen Lichtern der Stadt. Eine versteckte Luke führt ins Innere des Gebäudes. Du hörst das leise Summen von Kameras, die den Bereich überwachen. Der Riddler scheint jeden deiner Schritte vorausgeplant zu haben. Du siehst dich um, suchst nach Schwachstellen oder Alternativen. Die Dunkelheit ist dein Verbündeter, aber jede Entscheidung könnte dich verraten.",
+        "choices": {
+            "a": ["Deaktiviere die Kameras", "14"],
+            "b": ["Ignoriere die Kameras und gehe hinein", "15"],
+            "c": ["Rufe die Polizei zur Unterstützung", "8"]
+        }
+    },
+    "7": {
+        "name": "Batmobil Scan",
+        "description": "Im Inneren des Batmobils aktivierst du die Scanner. Auf den holographischen Displays erscheinen die Umrisse der Bank. Mehrere Sprengsätze sind an strategischen Punkten im Gebäude verteilt. Der Countdown läuft, und du hast nur wenige Minuten, um sie zu entschärfen. 'Alfred, ich brauche Informationen über diese Bauweise.' Seine Stimme kommt klar durch die Lautsprecher: 'Sir, Sie müssen präzise vorgehen. Ein Fehler könnte fatal sein",
+        "choices": {
+            "a": ["Entschärfe die Bomben nacheinander", "16"],
+            "b": ["Betrete die Bank frontal", "5"],
+            "c": ["Suche nach Hinweisen auf dem Dach", "6"]
+        }
+    },
+    "8": {
+        "name": "Polizeiverstärkung",
+        "description": "Die Verstärkung trifft ein. Polizisten in schusssicheren Westen und mit schweren Waffen positionieren sich vor der Bank. Gordon gibt dir ein Funkgerät: 'Batman, wir haben alles, was wir brauchen. Sagen Sie nur, was zu tun ist.' Doch bevor du antworten kannst, hörst du die Stimme des Riddlers über die Lautsprecher: 'Oh, mehr Spielzeuge! Wie nett. Mal sehen, ob euer Held das Risiko eingehen wird.' Der Druck steigt",
+        "choices": {
+            "a": ["Stoppe den Countdown", "17"],
+            "b": ["Schicke die Polizei zurück", "5"],
+            "c": ["Nutze die Verstärkung für eine Ablenkung", "14"]
+        }
+    },
+    "9": {
+        "name": "Gotham Scan",
+        "description": "Der Batcomputer zeigt dir ein umfassendes Bild von Gotham. Neben der Bank werden auch die Gotham Bridge und das alte Theater als potenzielle Ziele markiert. Der Riddler hat ein Netz aus Chaos gesponnen, und du hast nur begrenzt Zeit, um zu handeln. Alfred schlägt vor: 'Sir, Sie müssen Prioritäten setzen. Wählen Sie mit Bedacht.",
+        "choices": {
+            "a": ["Fahre zur Bank", "2"],
+            "b": ["Untersuche die Brücke", "18"],
+            "c": ["Gehe zum Theater", "19"]
+        }
+    },
+    "10": {
+        "name": "Frühere Rätsel",
+        "description": "Beim Durchsehen der alten Akten des Riddlers erkennst du Muster in seinen Rätseln. Er liebt es, seine Gegner in falsche Sicherheit zu wiegen. Jedes Rätsel hat eine Verbindung zu einer anderen Falle. Auf dem Bildschirm siehst du Diagramme und Notizen, die dir Hinweise geben könnten. Doch die Zeit läuft, und Gotham wartet.",
+        "choices": {
+            "a": ["Entwickle eine Strategie basierend auf den Mustern", "20"],
+            "b": ["Setze auf improvisierte Entscheidungen", "5"],
+            "c": ["Untersuche seine nächsten Schritte", "9"]
+        }
+    },
+    
+        "11": {
+            "name": "Rätsel im Haupteingang",
+            "description": "Ein leuchtendes Fragezeichen erscheint auf einer Leinwand: 'Was bin ich? Ich bin leicht wie eine Feder, aber schwer zu halten.' Der Raum ist still, nur das Ticken der Bombe ist zu hören.",
+            "room_type": "PuzzleRoom",
+            "choices": {
+                "a": ["Gib die Antwort ein", "14"],
+                "b": ["Ignoriere das Rätsel und gehe weiter", "12"],
+                "c": ["Suche nach weiteren Hinweisen im Raum", "13"]
+            },
+            "solution": "Atem"
+    },
+        "12": {
+            "name": "Gefährlicher Tresorraum",
+            "description": "Du trittst in einen Raum, der mit Laserstrahlen gespickt ist. Jeder Schritt könnte eine tödliche Falle auslösen. 'Viel Glück, dunkler Ritter!' hörst du die Stimme des Riddlers über die Lautsprecher.",
+            "room_type": "TrapRoom",
+            "choices": {
+                "a": ["Scanne den Raum nach sicheren Wegen", "13"],
+                "b": ["Bewege dich vorsichtig weiter", "14"],
+                "c": ["Ignoriere die Gefahr und renne", "death"]
+            },
+            "damage": 30
+    
+    
+    },
+
+    "13": {
+            "name": "Bombensuche",
+            "description": "Im Inneren eines massiven Tresors siehst du die Bombe. Sie ist mit einer Vielzahl von Drähten verbunden, die in verschiedene Farben gekennzeichnet sind. Auf dem Boden liegt eine weitere Notiz: 'Je mehr du davon nimmst, desto größer wird es. Was bin ich?' Das Rätsel ist kompliziert, aber es könnte der Schlüssel zur Entschärfung der Bombe sein.",
+            "choices": {
+                "a": ["Löse das Rätsel ('Loch')", "16"],
+                "b": ["Versuche, den Tresor zu knacken", "15"],
+                "c": ["Gehe zurück zum Haupteingang", "11"]
+            }
+    },
+    "14": {
+        "name": "Richtige Antwort",
+        "description": "Die korrekte Antwort deaktiviert den Mechanismus. Ein mechanisches Klicken ist zu hören, und die Bombe scheint sich zu entschärfen. Die Geiseln atmen erleichtert auf. Doch du weißt, dass dies nur eine von vielen Hürden war. Der Riddler beobachtet dich, und du fühlst, dass er noch einen letzten Trick im Ärmel hat",
+        "choices": {
+            "a": ["Untersuche den nächsten Raum", "17"],
+            "b": ["Bleibe bei den Geiseln, um sie zu sichern", "12"],
+            "c": ["Scanne die Bank auf weitere Gefahren", "7"]
+        }
+    },
+    "15": {
+        "name": "Falle entschärfen",
+        "description": "Mit deinem Entschärfungsgadget beginnst du, die Drähte zu durchtrennen. Schweiß läuft dir über die Stirn, während du das sanfte Summen des Mechanismus hörst. Plötzlich siehst du eine blinkende LED, die darauf hinweist, dass es eine zweite Sicherheitsstufe gibt. Du spürst, dass der Riddler es dir niemals so einfach machen würde.",
+        "choices": {
+            "a": ["Gehe in den nächsten Raum", "16"],
+            "b": ["Rette die Geiseln", "14"],
+            "c": ["Kontaktiere Gordon für Unterstützung", "8"]
+        }
+    },
+    "16": {
+        "name": "Tresor",
+        "description": "Im Tresorraum ist es kühl und still, bis auf das leise Ticken der Hauptbombe. Du bemerkst, dass es sich um eine besonders komplizierte Konstruktion handelt - eine, die bei jeder Fehlentscheidung eine zusätzliche Explosion auslösen könnte. Eine Notiz auf der Bombe lautet: 'Der Mutige wird siegen, der Zögernde verliert.",
+        "choices": {
+            "a": ["Entschärfe die Bombe", "18"],
+            "b": ["Trage die Bombe aus der Bank", "19"],
+            "c": ["Untersuche die Bombe auf Hinweise", "20"]
+        }
+    },
+    "17": {
+        "name": "Nächster Raum",
+        "description": "Im nächsten Raum erwartet dich eine weitere Falle. Der Riddler hat eine Konstruktion vorbereitet, die mit einem Zahlencode gesichert ist. Ein Bildschirm flackert auf: 'Was bricht, ohne je gehalten zu werden?' Du spürst, dass der Raum beginnt, sich langsam mit Gas zu füllen. Der Druck steigt, und du musst dich schnell entscheiden.",
+        "choices": {
+            "a": ["Löse das Rätsel ('Versprechen')", "20"],
+            "b": ["Durchsuche den Raum auf Hinweise", "18"],
+            "c": ["Ignoriere das Rätsel und gehe weiter", "15"]
+        }
+    },
+    "18": {
+        "name": "Finale Bombe",
+        "description": "Die letzte Bombe ist komplexer als jede, die du je gesehen hast. Sie hat mehrere Sicherheitsstufen, die in schneller Folge deaktiviert werden müssen. Ein kleines Display zeigt den Countdown: 60 Sekunden. Neben der Bombe liegt eine Nachricht: 'Nur ein echter Detektiv kann dieses Problem lösen.' Der Riddler hat dir keine Wahl gelassen.",
+        "choices": {
+            "a": ["Entschärfe die Bombe", "19"],
+            "b": ["Kontaktiere Alfred für Hilfe", "14"],
+            "c": ["Verlasse die Bank, um mehr Informationen zu sammeln", "9"]
+        }
+    },
+    "19": {
+        "name": "Entscheidung unter Druck",
+        "description": "Die Uhr tickt, die Stadt hält den Atem an. Du bist allein mit der Bombe, und jede Sekunde zählt. Vor dir liegt ein Bündel Drähte - rot, blau und schwarz. Eine letzte Nachricht des Riddlers erscheint: 'Was würdest du tun, wenn alle zuschauen? Entscheide dich klug, Batman.' Du weißt, dass dies dein entscheidender Moment ist.",
+        "choices": {
+            "a": ["Schneide den roten Draht", "20"],
+            "b": ["Schneide den blauen Draht", "death"],
+            "c": ["Schalte die gesamte Elektrik aus", "win"]
+        }
+    },
+    "20": {
+        "name": "Sieg!",
+        "description": "Mit einer ruhigen Hand trennst du den letzten Draht. Die Bombe verstummt, und ein mechanisches Klicken signalisiert, dass sie deaktiviert ist. Überall in der Bank bricht Jubel aus, und die Geiseln werden von der Polizei in Sicherheit gebracht. Alfreds Stimme kommt über dein Kommunikationsgerät: 'Gut gemacht, Sir. Gotham verdankt Ihnen erneut sein Leben.' Doch du weißt, dass die Arbeit eines dunklen Ritters nie endet.",
+        "choices": {}
+    }
+    
+
+    
+   
+    
+}
+    
